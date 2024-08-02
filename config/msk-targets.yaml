@@ -1,0 +1,10 @@
+  msk_targets.yaml: |
+    - targets:
+      - b-1.xxx.xxx.amazonaws.com:11001
+      labels:
+        job: jmx
+    - targets:
+      - b-1.xxx.xxx.amazonaws.com:11002
+      labels:
+        job: node
+  
